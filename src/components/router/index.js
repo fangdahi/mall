@@ -1,5 +1,4 @@
 // import Vue from "vue";
-// import { createApp } from "vue";
 // import App from "./App.vue";
 import { createRouter, createWebHistory } from "vue-router";
 // import VueRouter from "vue-router";
@@ -37,7 +36,7 @@ const routes = [
 const router = createRouter({
   routes,
   history: createWebHistory(),
-  mode: "history",
+  // mode: "history",
 });
 
 export default router;
